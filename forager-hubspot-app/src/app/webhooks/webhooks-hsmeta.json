@@ -1,0 +1,24 @@
+{
+  "uid": "forager_hubspot_app_webhooks",
+  "type": "webhooks",
+  "config": {
+    "settings": {
+      "targetUrl": "https://example.com/webhook",
+      "maxConcurrentRequests": 10
+    },
+    "subscriptions": {
+      "crmObjects": [],
+      "legacyCrmObjects": [
+        {
+          "subscriptionType": "company.creation",
+          "active": false
+        },
+        {
+          "subscriptionType": "contact.creation",
+          "active": false
+        }
+      ],
+      "hubEvents": []
+    }
+  }
+}
