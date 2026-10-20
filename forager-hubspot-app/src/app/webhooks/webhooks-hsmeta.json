@@ -3,7 +3,7 @@
   "type": "webhooks",
   "config": {
     "settings": {
-      "targetUrl": "https://example.com/webhook",
+      "targetUrl": "https://forager-hubspot-production.up.railway.app/webhooks/hubspot",
       "maxConcurrentRequests": 10
     },
     "subscriptions": {
@@ -11,11 +11,11 @@
       "legacyCrmObjects": [
         {
           "subscriptionType": "company.creation",
-          "active": false
+          "active": true
         },
         {
           "subscriptionType": "contact.creation",
-          "active": false
+          "active": true
         }
       ],
       "hubEvents": []
